@@ -19,19 +19,18 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+/* Condensed font attributes */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 20px
 }
-.header div ul {
-    list-style-type: none;
-}
+/* Condensed .header div ul li elements together */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none
 }
 a {
     color: #ffffff;
